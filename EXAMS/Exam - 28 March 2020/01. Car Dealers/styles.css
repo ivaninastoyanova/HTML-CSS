@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+body {
+  margin: 0;
+  font-family: Lato, sans-serif;
+  background-color: rgba(255, 255, 255);
+  color: rgba(99, 101, 102);
+  /* max-width: 1300px;
+  margin: 60px auto; */
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Lato, sa;
+  color: rgba(77, 92, 108);
+}

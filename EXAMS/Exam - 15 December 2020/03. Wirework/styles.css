@@ -1,0 +1,238 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.header {
+  width: 95%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.header-left {
+  display: flex;
+  align-items: baseline;
+}
+
+.header-left-title,
+.header-left-subtitle {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.header-left-title {
+  padding-right: 5px;
+  font-size: 35px;
+  margin-top: 25px;
+}
+
+.header-left-subtitle {
+  font-size: 13px;
+  color: rgba(108, 117, 118);
+}
+
+.header-left-subtitle::before {
+  display: inline-block;
+  content: "";
+  border-top: 45px solid rgba(108, 117, 118);
+  width: 1px;
+  margin: 0 15px;
+  transform: translateY(10px);
+}
+
+.header-nav-list {
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.header-nav-item {
+  margin-right: 3px;
+  padding: 20px 25px;
+  text-align: center;
+  background-color: rgba(236, 236, 236);
+}
+
+.header-nav-item:nth-child(5) {
+  margin-right: 0px;
+}
+
+.header-nav-item a {
+  text-decoration: none;
+  color: rgba(108, 117, 118);
+}
+
+.header-nav-item:nth-child(1) {
+  background-color: rgba(226, 78, 42);
+}
+
+.header-nav-item:nth-child(1) a {
+  color: rgba(236, 236, 236);
+}
+
+.intro {
+  width: 100%;
+}
+
+.intro-img {
+  width: 100%;
+}
+
+.intro-img img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+
+.intro-info-container {
+  width: 100%;
+  background-color: rgba(226, 78, 42);
+  position: relative;
+  top: -15px;
+  margin-bottom: 0px;
+}
+
+.intro-info-text {
+  width: 60%;
+  margin: 0 auto;
+  padding: 55px 0;
+  color: rgba(236, 236, 236);
+  line-height: 2;
+  font-weight: 200;
+  text-align: center;
+}
+
+.intro-info-text span {
+  text-decoration: underline;
+}
+
+.content {
+  background: rgba(56, 56, 56);
+  width: 100%;
+  display: flex;
+  padding: 90px 40px;
+  position: relative;
+  top: -15px;
+}
+
+.content-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgba(108, 117, 118);
+  margin-right: 25px;
+}
+
+.content-item:nth-child(4) {
+  margin-right: 0px;
+}
+
+.content-item h3 {
+  color: rgba(233, 233, 232);
+  margin-bottom: 10px;
+}
+
+.content-item i {
+  color: rgba(233, 233, 232);
+  font-size: 60px;
+  padding: 20px;
+  background: rgba(226, 78, 42);
+}
+
+.content-item p {
+  border-top: 0.5px solid rgba(108, 117, 118);
+  padding-top: 30px;
+  line-height: 1.8;
+}
+
+.white {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.white-title {
+  font-size: 40px;
+  font-weight: normal;
+  color: rgba(56, 56, 56);
+  margin-bottom: 0px;
+  margin-top: 60px;
+}
+
+.white-subtitle {
+  font-size: 19px;
+  color: rgba(108, 117, 118);
+  margin-top: 5px;
+}
+
+.white-button {
+  color: white;
+  background: rgba(27, 151, 114);
+  border: none;
+  padding: 15px 30px;
+  letter-spacing: 2px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.additional-info {
+  background: rgba(56, 56, 56);
+  width: 100%;
+  display: flex;
+  padding: 70px 30px;
+}
+
+.additional-info-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgba(108, 117, 118);
+  margin-right: 26px;
+}
+
+.additional-info-item:nth-child(4) {
+  margin-right: 0px;
+}
+
+.additional-info h3 {
+  color: rgba(233, 233, 232);
+  margin-bottom: 25px;
+}
+
+footer {
+  background: rgba(27, 151, 114);
+  margin: 0px;
+  padding: 80px;
+}
+
+footer p {
+    font-size: 15px;
+  margin: 0px;
+  text-align: center;
+  padding-bottom: 10px;
+  color: rgb(139, 147, 148);
+  letter-spacing: 1px;
+
+}
+
+footer p span {
+  color: rgb(195, 195, 187);
+}

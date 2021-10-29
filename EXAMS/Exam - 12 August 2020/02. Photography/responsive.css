@@ -1,0 +1,20 @@
+@media all and (max-width: 600px) {
+  .thumbnails {
+    flex-direction: column;
+  }
+
+  .thumbnails div {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .thumbnails div img {
+    max-height: 250px;
+  }
+
+  footer {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+}

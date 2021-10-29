@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+body {
+  margin: 0;
+  font-family: "Popins", sans-serif;
+  background-color: rgba(255, 255, 255);
+  color: rgba(79, 79, 79);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.7)url(./image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -200px;
+  background-blend-mode: darken;
+}
+
+.login {
+  width: 25%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-title {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+
+.login-form {
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form-field {
+  display: flex;
+  align-items: baseline;
+  padding: 30px 0px 10px 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+.login-form-field i {
+  padding-right: 40px;
+}
+
+.login-form-field p {
+  margin: 0px;
+}
+
+.login-button {
+  background-color: rgba(212, 24, 114);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  padding: 13px 60px;
+  margin: 15px;
+  max-width: 40%;
+  align-self: center;
+}

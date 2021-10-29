@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap");
+
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+body {
+  margin: 0;
+  font-family: Lato, sans-serif;
+  background-color: rgba(255, 255, 255);
+  color: rgba(99, 101, 102);
+  /* max-width: 1300px;
+  margin: 60px auto; */
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, serif;
+  color: rgba(77, 92, 108);
+}
+.content {
+  max-width: 1300px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-text {
+  background: rgba(227, 243, 253);
+  width: 47%;
+  border-radius: 10px;
+}
+
+.content-text-title {
+  margin: 40px 0px 30px 40px;
+}
+
+.content-text-one {
+  margin: 20px 0px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.content-text-one i {
+  color: rgba(67, 168, 248);
+}
+
+.content-text-one-info {
+  margin: 0px;
+  padding-left: 10px;
+}
+
+.content-text-one:nth-child(6) {
+  padding-bottom: 30px;
+}
+
+.content-enrollment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 47%;
+  border: 7px solid rgba(68, 169, 248);
+  border-radius: 10px;
+  align-items: center;
+}
+
+.content-enrollment-title {
+  display: flex;
+  align-items: baseline;
+  text-align: end;
+  margin-bottom: 15px;
+}
+
+.content-enrollment-title i,
+.content-enrollment-title-price
+ {
+  color: rgba(68, 169, 248);
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0px;
+  
+}
+
+.content-enrollment-title-month{
+   font-size: 25px;
+   padding-left: 7px;
+   margin: 0px;
+}
+
+.content-enrollment-subtitle{
+    font-size: 16px;
+    font-weight:bold;
+}
+
+.content-enrollment-button{
+    background: rgba(68, 169, 248);
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 11px 55px;
+    margin-top: 20px;
+}

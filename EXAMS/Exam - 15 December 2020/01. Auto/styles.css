@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Popins", sans-serif;
+  background-color: rgba(255, 255, 255);
+  color: rgba(79, 79, 79);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(51, 51, 51);
+}
+
+.auto {
+  margin: 100px auto;
+  max-width: 1300px;
+  display: flex;
+}
+
+.auto-content {
+  padding-right: 70px;
+}
+
+.auto-content-title {
+  line-height: 1.5;
+  margin-top: 0px;
+}
+
+.auto-content-text{
+    font-size: 16px;
+}
+
+.auto-content-text:nth-child(2){
+    margin-bottom: 28px;
+}
+
+.auto-content-benefits {
+  padding-left: 0px;
+  text-decoration: none;
+}
+
+.auto-content-benefit {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.auto-content-benefit-img {
+  max-width: 70px;
+  margin-right: 10px;
+
+}
+
+.auto-content-benefit-img img {
+  width: 100%;
+}
+
+.auto-benefit-content-text-title{
+    margin-bottom: 0px;
+}
+
+.auto-benefit-content-text-subtitle{
+    margin-top: 5px;
+}
